@@ -42,6 +42,7 @@ function App() {
 
 	return (
 		<div className="App">
+			<img src="./carp.webp" style={{width:"0px", height: "0px"}} />
 			<header className="App-header">
 				<Attackers onChange={(count) => setAttackers(count)} />
 				Current Attackers: {attackers}
@@ -160,7 +161,7 @@ function DamageDealt({ onChange }) {
 						{key + 1}
 					</button>
 				))}
-			<audio controls ref={audioRef} style={{ opacity: "0", height: "0px", width: "0px" }}>
+			<audio ref={audioRef} style={{ opacity: "0", height: "0px", width: "0px" }}>
 				<source src="HeartAttack.m4a" type="audio/x-m4a" />
 			</audio>
 			{
