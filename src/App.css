@@ -1,3 +1,40 @@
-header {
-	text-align: center;;
+.App-header {
+	text-align: center;
+	color: #333;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+p {
+	margin: 5px;
+}
+h1 {
+	margin: 5px;
+}
+
+button {
+	border: 2px solid rgb(234, 12, 12);
+	background-color: rgb(242, 106, 106);
+	font-weight: bold;
+	width: 50px;
+	height: 30px;
+	font-size: 20px;
+	color: white;
+	margin: 4px 2px;
+	border-radius: 10000px;
+	transition: all ease-in-out 400ms;
+}
+button:hover {
+	border: 2px solid rgb(110, 9, 9);
+	background-color: rgb(162, 69, 69);
+}
+
+button.selected {
+	border: 2px solid rgb(57, 159, 57);
+	background-color: rgb(82, 184, 82);
+	color: black;
+	width:50px;
+	height: 50px;
+	margin: -8px 2px;
 }
