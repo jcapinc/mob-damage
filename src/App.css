@@ -25,6 +25,9 @@ button {
 	border-radius: 10000px;
 	transition: all ease-in-out 400ms;
 }
+.advantage button {
+	width: auto;
+}
 button:hover {
 	border: 2px solid rgb(110, 9, 9);
 	background-color: rgb(162, 69, 69);
@@ -34,7 +37,6 @@ button.selected {
 	border: 2px solid rgb(57, 159, 57);
 	background-color: rgb(82, 184, 82);
 	color: black;
-	width:50px;
 	height: 50px;
 	margin: -8px 2px;
 }
